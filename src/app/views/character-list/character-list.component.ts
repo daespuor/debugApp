@@ -40,7 +40,7 @@ export class CharacterListComponent implements OnDestroy {
           this.characters.push(res.results);
           this.isLoading = false;
         });
-      }, 500);
+      }, 3000);
     } catch (err) {
       TrackJS.track(err.message);
     }
