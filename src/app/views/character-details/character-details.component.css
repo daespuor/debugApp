@@ -1,0 +1,17 @@
+.example-card {
+  width: 90%;
+  height: 500px;
+  display: flex;
+}
+.example-card img {
+  max-width: 40%;
+  margin: 0;
+}
+.example-card mat-card-content {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.example-card mat-card-content p {
+  font-size: 20px;
+}
